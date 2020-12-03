@@ -20,7 +20,7 @@ return {
     social = 'discord',
     game = rofi_command,
     files = 'nautilus',
-    music = rofi_command 
+    music = 'spotify' 
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
@@ -32,7 +32,6 @@ return {
     '/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     'xfce4-power-manager', -- Power manager
      'flameshot',
-     'synology-drive -minimized',
      'steam -silent',
      '/usr/bin/barrier',
      '~/.local/bin/wallpaper', -- wallpaper-reddit script
