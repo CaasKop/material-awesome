@@ -16,7 +16,7 @@ return {
     region_screenshot = 'flameshot gui -p ~/Pictures',
     delayed_screenshot = 'flameshot full -p ~/Pictures -d 5000',
     browser = 'brave',
-    editor = 'gedit', -- gui text editor
+    editor = 'code', -- IDE
     social = 'discord',
     game = rofi_command,
     files = 'nautilus',
