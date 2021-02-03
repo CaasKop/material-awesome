@@ -27,7 +27,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 *Note: PPA is for picom since compton is old and hasn't been updated*
 
 #### Arch-Based
-
+With yay
 ```
 yay -S awesome rofi picom i3lock-fancy xclip ttf-roboto polkit-gnome materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager -y
 wget -qO- https://git.io/papirus-icon-theme-install | sh
