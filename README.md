@@ -35,7 +35,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 
 With paru:
 ```
-paru awesome rofi picom i3lock-fancy xclip ttf-roboto polkit-gnome materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager
+paru -S awesome rofi picom i3lock-fancy xclip ttf-roboto polkit-gnome materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager
 wget -qO- https://git.io/papirus-icon-theme-install | sh
 ```
 
